@@ -1,0 +1,40 @@
+h3 {
+  display: block;
+  text-align: center !important;
+  margin-top: 400px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  font-family: Helvetica, sans-serif;
+  color: #2c2c2c;
+}
+
+.btn.stretched-link.borders {
+  background: transparent;
+  border: 1px solid #2c2c2c;
+  color: #2c2c2c;
+  border-radius: 2px;
+  padding: 15px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-family: normal normal normal 16px/1 LineAwesome;
+  width: 175px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14vh;
+}
+
+.arrow-icon {
+  margin-left: 5px;
+}
