@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
-import "./Nav.css"
+import "./navbar.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faUser,
   faSignInAlt,
@@ -12,6 +13,8 @@ import {
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 import logoo from './logo.png';
+// import AboutUs from "./AboutUs";
+
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -26,7 +29,8 @@ const Navbar = () => {
           <Link to="/products">PRODUCTS</Link>
         </li>
         <li>
-          <Link to="/about">ABOUT US</Link>
+        {/* <a href="/aboutus">ABOUT US</a> */}
+          <Link to="/AboutUs">ABOUT US</Link>
         </li>
         <li>
           <Link to="/contact">CONTACT US</Link>

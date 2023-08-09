@@ -1,0 +1,71 @@
+.image-box {
+    height: 530px;
+    width: 640px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2px;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }
+  
+  .image-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(1);
+    transition: all 0.3s;
+    z-index: -1;
+  }
+  .image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+  }
+  .image-box:hover img {
+    transform: scale(1.2);
+    filter: brightness(1);
+  }
+  
+  /* .image-box:hover .shop-button {
+    transform: scale(1.1);
+  } */
+  
+  .heading {
+    color: #fff !important;
+    font-family: Jost, Helvetica, sans-serif !important;
+    font-weight: 600;
+    font-size: 2em;
+  }
+  
+  .shop-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #111;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 180px;
+    height: 60px;
+    font-family: var(--FontName), Helvetica, sans-serif !important;
+    position: absolute;
+    top: 200px; /* Position the button 50px from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .shop-button:hover {
+    background-color: #fff;
+    
+  }
+  
+  .shop-button svg {
+    margin-left: 5px;
+  }

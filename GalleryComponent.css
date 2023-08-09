@@ -1,0 +1,19 @@
+.gallery-container {
+    padding: 20px;
+    /* background-color: #f7f7f7; */
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: -5px; /* Add negative margin to counteract spacing */
+  }
+  
+  .gallery-image {
+    width: calc(12.5% - 10px); /* Adjust width as needed */
+    height: auto;
+    border-radius: 5px;
+    margin: 5px; /* Add spacing between images */
+  }

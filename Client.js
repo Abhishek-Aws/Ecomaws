@@ -32,23 +32,21 @@ const Client = () => {
     <div>
       <div
         className="sec_title position-relative text-center"
-        style={{ marginBottom: "30px", marginTop: "30px" }}
       >
         <h2
-          class="off_title"
-          style={{
+        style={{
             fontWeight: 600,
             color: "#2c2c2c",
             opacity: 0.11,
             position: "absolute",
-            top: 580,
             left: "50%",
             fontStyle: "italic",
+            marginTop:"-25px",
             transform: "translate(-50%, 0%)",
-            WebkitTransform: "translate(-50%, 0%)",
-            fontSize: "55px",
+            WebkitTransform: 'translate(-50%, 0%)',
+            fontSize: 55,
             fontFamily: "initial",
-            lineHeight: 36,
+            
           }}
         >
           Testimonials
